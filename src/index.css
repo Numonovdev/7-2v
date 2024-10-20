@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-color: white;
+  --text-color: black;
+  --text-gray: #676767;
+  --textblue:#00085E;
+  --mainbg: #EDF4FF;
+  --textBlue-and: #00085E;
+  --inputbg:#FFF;
+  background-color: var(--bg-color);
+}
+[data-theme="dark"]{
+  --inputbg:#0D0D0D;
+  --bg-color: black;
+  --text-color: white;
+  --text-gray: #878787;
+  --textblue:#A1A9FF;
+  --mainbg:#161616;
+  --textBlue-and:#999999;
+}
+.nextbtn{
+  color: var(--bg-color);
+}
+.inputbg{
+ background-color: var(--inputbg);
+}
+.main-p{
+color: var(--textBlue-and);
+}
+.btnlight{
+  background-color: var(--textblue);
+}
+.headerr{
+  /* background-color: var(--bg-color); */
+  color: var(--text-color);
+}
+
+.bgdark{
+  background-color: var(--text-color);
+}
+.bgdarkchild{
+  background-color: var(--bg-color);
+}
+.mainn{
+  background-color: var(--mainbg);
+}
+
+.mainH1Color{
+ color: var(--textblue); 
+}
